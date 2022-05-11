@@ -10,6 +10,6 @@
 	"esmodules": [
 		"./backup-nag.js"
 	],
-  "manifest": "",
+  "manifest": "https://raw.githubusercontent.com/jsavko/backup-nag/main/module.json",
   "download": ""
 }

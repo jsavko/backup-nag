@@ -1,6 +1,4 @@
-/**
- * Registers the report on chatmessage
- */
+
 Hooks.once('init', () => {
     console.log("Backup Nag Loaded");
 });
@@ -8,6 +6,7 @@ Hooks.once('init', () => {
 Hooks.once('ready', () => {
   if (game.user.isGM){
     let check_nag = game.user.getFlag("backup-nag", "next_nag");
+    if (check_nag == undefined) check_nag = 0;
       if (check_nag != -1 ) {
         const d = new Date();
         if (d.getTime() >= check_nag) {
