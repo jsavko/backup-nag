@@ -1,0 +1,15 @@
+{
+  "name": "backup-nag",
+  "title": "Backup Nag",
+  "description": "Nags you to create a backup every X days",
+  "author": ["jsavko"],
+  "version": "0.0.1",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "packs": [],
+	"esmodules": [
+		"./backup-nag.js"
+	],
+  "manifest": "",
+  "download": ""
+}
