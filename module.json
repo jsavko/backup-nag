@@ -1,11 +1,18 @@
 {
-  "name": "backup-nag",
+  "id": "backup-nag",
   "title": "Backup Nag",
   "description": "Nags you to create a backup every X days",
-  "author": ["jsavko"],
-  "version": "0.0.1",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
+  "authors": [
+    {
+        "name": "James Savko",
+        "discord": "Phoenix#0009"
+    }
+],
+  "version": "0.0.2",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.284"
+},
   "packs": [],
 	"esmodules": [
 		"./backup-nag.js"
